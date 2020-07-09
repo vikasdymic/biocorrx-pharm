@@ -84,6 +84,22 @@ img {
   grid-area: e;
 }
 
+.ave31 div:nth-child(6) {
+  grid-area: f;
+}
+
+.ave31 div:nth-child(7) {
+  grid-area: g;
+}
+
+.ave31 div:nth-child(8) {
+  grid-area: h;
+}
+
+.ave31 div:nth-child(9) {
+  grid-area: i;
+}
+
 .ave31:hover .box-1 {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 2px;
@@ -129,6 +145,11 @@ img {
   transition: all 0.25s ease-in;
   -webkit-perspective: 0;
           perspective: 0;
+}
+
+.flip-box-front img {
+  height: auto;
+  width: 80px;
 }
 
 .flip-box-back {
@@ -184,6 +205,10 @@ img {
   }
   .flip-box-back {
     font-size: 1rem;
+  }
+  .flip-box-front img {
+    width: 40px;
+    height: auto;
   }
 }
 /*# sourceMappingURL=main.css.map */
